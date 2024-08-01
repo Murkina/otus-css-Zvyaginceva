@@ -1,0 +1,7 @@
+h1 {color: rgb(255, 174, 0);}
+.rectangle {width: 20px;
+    height: 6px;
+    gap: 0px;
+    opacity: 0px;
+    background: #0D0D0D;
+}
