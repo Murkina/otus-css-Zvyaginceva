@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,400;0,900;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- начало шапки страницы-->
@@ -13,7 +19,7 @@
         <h1>Mod</h1>
          <!--меню-->
         <nav>
-            <ul>
+            <ul class="menu">
         <li><a href="#Biography">Biography</a></li>
        <li><a href="#Designers">Designers</a></li> 
        <li><a href="#Testimonials">Testimonials</a></li> 
@@ -21,9 +27,8 @@
          </ul>
     </nav>
     <img src="images/img-1.jpg" alt="Фон">
-<p>Mod Studio</p>
-<p>Modern Web Studio</p>
-
+<p class="heading">Mod Studio</p>
+<p class="description-MS">Modern Web Studio</p>
     </header>  
      <!--конец шапки страницы-->
     <main>
@@ -31,41 +36,41 @@
         <!--про арт-директора-->
         <img src="images/girl-katya-mills.jpg" alt="Katya Mills">
         <h2 id="Biography">Biography</h2>
-        <p>Katya Mills</p>
-        <p>Art Director Scenography / Styling / Creative Photography / Design</p>
+        <p class="heading">Katya Mills</p>
+        <p class="description-KM">Art Director Scenography / Styling / Creative Photography / Design</p>
         <div class="rectangle"></div>
-        <blockquote>“The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</blockquote>
+        <blockquote class="quote-KM">“The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</blockquote>
    <!--Дизайнеры-->
    <h2 id="Designers">Designers</h2>
    <img src="images/Jess Wonder.jpg" alt="Jess Wonder">
-   <p>Jess Wonder</p>
-   <p>From/ Be more flower</p>
-   <p>Skills/ Design Strategy / Marketing</p>
+   <p class="designers-name">JESS WONDER</p>
+   <p class="designers-description"><span class="designers-name">From</span>/ Be more flower</p>
+   <p class="designers-description"><span class="designers-name">Skills</span>/ Design Strategy / Marketing</p>
    <img src="images/Kameron Clein.jpg" alt="Kameron Clein">
-   <p>Kameron Clein</p>
-   <p>From/ Be more flower</p>
-   <p>Skills/ Design Strategy / Marketing</p>
+   <p class="designers-name">KAMERON CLEIN</p>
+   <p class="designers-description"><span class="designers-name">From</span>/ Be more flower</p>
+   <p class="designers-description"><span class="designers-name">Skills</span>/ Design Strategy / Marketing</p>
    <img src="images/LOUISSE RED.png" alt="LOUISSE RED">
-   <p>LOUISSE RED</p>
-   <p>From/ Be more flower</p>
-   <p>Skills/ Design Strategy / Marketing</p>
+   <p class="designers-name">LOUISSE RED</p>
+   <p class="designers-description"><span class="designers-name">From</span>/ Be more flower</p>
+   <p class="designers-description"><span class="designers-name">Skills</span>/ Design Strategy / Marketing</p>
    <!--Отзывы-->
    <h2 id="Testimonials">Testimonials</h2>
    <img src="images/the window.png" alt="keghan-crossland">
-   <p>Website</p>
-   <a href="www.whitepapers.com">www.whitepapers.com"</a>
-   <p>Creativity</p>
-   <a href="www.whitepapers.com">www.whitepapers.com"</a>
-   <p>Creativity</p>
-   <a href="www.whitepapers.com">www.whitepapers.com"</a>
-   <blockquote>I just really want to do good work and work with some great people, people who challenge me.</blockquote>
+   <p class="site">Website</p>
+   <p class="link"><a href="www.whitepapers.com">www.whitepapers.com"</a></p>
+   <p class="site">Creativity</p>
+   <p class="link"><a href="www.whitepapers.com">www.whitepapers.com"</a></p> 
+   <p class="site">Creativity</p>
+   <p class="link"><a href="www.whitepapers.com">www.whitepapers.com"</a></p>
+   <blockquote class="quote-T">I just really want to do good work and work with some great people, people who challenge me.</blockquote>
     <img src="images/the bag.png" alt="sinitta-leunen">
     <!--секция Strong points-->
     <h2 id="Strong points">Strong points</h2>
     <img src="images/the table.jpg" alt="dawid-liberadzki"> 
     <img src="images/the chair.png" alt="avery-klein">
-    <ul>
-        <li>Strengths</li>
+    <p class="heading">Strengths</p>
+    <ul class="strengths">
         <li>Interiors</li>
         <li>Outdoors</li>
         <li>Portraits</li>
@@ -84,9 +89,8 @@
        <p><a href="tel">+7 921 123-45-67</a></p>
        <p><a href="mailto">info@modstudio.com</a></p> 
     </address>
-        <p>A product of  MOD</p>
-        <p>© 2023 Mod Media. All rights reserved</p>
-
+        <p class="description-footer">A product of  MOD</p>
+        <p class="about-rights">© 2023 Mod Media. All rights reserved</p>
     </footer>
 </body>
 </html>
