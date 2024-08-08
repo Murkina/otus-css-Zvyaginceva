@@ -53,4 +53,6 @@
 /*шрифт для заголовка Mod*/
 h1 {
     font-family: 'Playfair Display Black', sans-serif;
+    font-size: 86px;
+    line-height: 103.2px;
 }
