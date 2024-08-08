@@ -3,10 +3,10 @@
     font-family: 'Playfair Display Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Playfair Display Regular'), url('/fonts/PlayfairDisplay-Regular.woff') format('woff');
+    src: local ('Playfair Display Regular'), url(/fonts/PlayfairDisplay-Regular.woff) format('woff');
 }   
 
-@font-face {
+/*@font-face {
     font-family: 'Playfair Display Italic';
     font-style: normal;
     font-weight: normal;
@@ -39,8 +39,26 @@
     font-style: normal;
     font-weight: normal;
     src: local('Playfair Display Black Italic'), url('/fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
+}*/
+@font-face {
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Medium'), url(fonts/Roboto-Medium.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Regular'), url(fonts/Roboto-Regular.woff2) format('woff2');
 }
 
+@font-face {
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Bold'), url(/fonts/Roboto-Bold.woff2) format('woff2');
+}
 /*черный прямоугольник над цитатой*/
 .rectangle {
     width: 20px;
@@ -52,5 +70,108 @@
 
 /*шрифт для заголовка Mod*/
 h1 {
-    font-family: 'Playfair Display Black', sans-serif;
+    font-family: 'Playfair Display Regular', sans-serif;
+    font-size: 86px;
+    line-height: 103.2px;
+    font-weight: 600;
+}
+/*шрифт для меню*/
+.menu {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+/*шрифт для заголовков*/
+.heading {
+    font-family: 'Playfair Display Regular', sans-serif;
+    font-size: 86px;
+    line-height: 103.2px;
+    font-weight: 500; 
+}
+/*шрифт для подзаголовка*/
+.description-MS {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+/*шрифт для имени арт-директора*/
+.description-KM {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 18px;
+    line-height: 21.09px; 
+}
+/*шрифт для A product of  MOD в футере*/
+.description-footer {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 18px;
+    line-height: 21.09px; 
+}
+/*шрифт для заголовков из меню*/ 
+h2 {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28.13px; 
+}
+/*шрифт для цитаты арт-диретора*//*подключение через Google fonts*/
+.quote-KM {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:26px;
+  line-height:31.2px; 
+}
+/*шрифт для цитаты из отзывов*//*подключение через Google fonts*/
+.quote-T {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38.4px; 
+}
+/*шрифты для имен дизайнеров*/
+.designers-name {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+/*шрифты для описания навыков дизайнеров*/
+.designers-description {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+/*шрифт для названия сайта*/
+.site {
+    font-family: 'Roboto Bold', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+/*шрифт для ссылки*/
+.link {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+/*шрифт для преимуществ*/ /*подключение через Google fonts*/
+.strengths {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    line-height: 40.8px; 
+}
+/*шрифт для телефона и почты*/
+address {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 26px; 
+}
+/*шрифт для текста про защиту прав*/
+.about-rights {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px; 
 }
